@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: linear-gradient(99deg, blue , #ccc)no-repeat fixed;
+    background-size: cover;
+	text-align: center;
+	padding: 10%;
+}
+#top,
+#mid,
+#bottom{
+	display: flex;
+	justify-content: center;
+}
+
+button{
+	margin: 25px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: red;
+	padding: 15px 60px;
+	border:2px solid white;
+	border-radius: 50px;
+	cursor: pointer;
+	display: inline-block;
+	transition: all .4s ease 0s;
+    text-decoration: none;
+
+}
+button:hover{
+	 text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+     border:none;
+     font-family: 600;
+     color: green;
+     padding: 20px 80px;
+     display: inline-block;
+     letter-spacing: 1px;
+     outline: none;
+     position: relative;
+     background: white;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.5s;
+     
+}
+
+#mid span{
+    margin: 10px;
+    padding: 10px;
+    font-size: 70px;
+}
+

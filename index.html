@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=egde">
+	<title>javascript Timmer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+   <div id="top">
+   	  <button onclick="addThirtyMins()">30 mins</button>
+   	  <button onclick="addFifteenMins()">15 mins</button>
+   	  <button onclick="addTenMins()">10 mins</button>
+   	  <button onclick="addFiveMins()">5 mins</button>
+   	  <button onclick="addRthirtysec()">30 sec</button>
+   </div>
+   
+   <div id="mid">
+   	   <span id="minutes">00</span><span> : </span>
+   	   <span id="seconds">00</span>
+   </div>
+   <div id="botton">
+   	  <button onclick="start()"> Start !</button>
+   </div>
+
+<script src="main.js" ></script>
+</body>
+</html>
